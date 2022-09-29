@@ -1,0 +1,115 @@
+body{
+     margin: 0px;
+     background-color: rgb(4,74,117);
+}
+#sendinblue{
+     width: 230px;
+     color: white;
+     text-align: center;
+     margin: 25px auto;
+}
+
+#container>div{
+     width: 27%;
+     /* border: 1px solid red; */
+     border-radius: 5px;
+     background-color: white;
+     margin: auto;
+     padding: 40px;
+     
+}
+#container>div>h1{
+     text-align: center;
+     margin-top: -15px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+     color:blue;
+     font-weight: bold;
+}
+form{
+     display: grid;
+     gap:20px;
+}
+form>input{
+     height: 35px;
+     border-radius: 5px;
+     border:1px solid grey;
+}
+#submit{
+     height: 40px;
+     font-size: 18px;
+     color: white;
+     background-color: #0092ff;
+     border: none;
+     cursor: pointer;
+}
+#submit:hover{
+     background-color:rgb(4,74,117) ;
+}
+
+form>label{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     margin-bottom: -10px;
+}
+
+#line{
+     display: flex;
+     width:100% ;
+     align-items: center;
+     margin: auto;
+
+}
+#line>div{
+     width: 49%;
+     height: 1px;
+     background-color: gray;
+}
+#line>p{
+     padding: 2px;
+}
+
+#sign-google{
+     width:100%;
+     height: 35px;
+     border-radius: 5px;
+     border:1px solid #0092ff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+     
+}
+
+#sign-google:hover{
+     background-color: #c6d5e1;
+}
+a{
+     text-decoration: none;
+     color: #0092ff;
+}
+#sign-google>p{
+     padding: 5px;
+     color:#0092ff;
+     font-size: 16px;
+     font-weight: bold;
+}
+#para{
+     /* line-height: 25px; */
+     /* letter-spacing: 1px; */
+     text-align: center;
+     color:white;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+#para>a{
+     text-decoration:none;
+     color:white;
+     /* font-weight: bold; */
+}
+#para>a:hover{
+     color: #0092ff;
+     text-decoration: underline;
+}
+
