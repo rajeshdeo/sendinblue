@@ -17,6 +17,7 @@
      /* margin-top: -50px; */
      /* overflow:auto; */
      background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     
 }
 
@@ -26,6 +27,12 @@
 #navbar a{
      text-decoration: none;
      color:rgb(111, 108, 108);
+}
+#navbar a:hover{
+     color:rgb(0,146,255);
+}
+button:hover{
+     color:rgb(0,146,255);
 }
 #navbar>div>a>img{
      /* margin-left:-40px; */
@@ -46,6 +53,16 @@
      
 
 }
+#login{
+     /* font-weight: bold; */
+     font-size: 10px;
+     margin-left: -20px;
+     margin-right: -20px;
+}
+#login:hover{
+     color:rgb(0,146,255);
+}
+
 #sign-up-free{
      height: 50px;
      width: 150px;
@@ -85,7 +102,7 @@
      display: none;
      position: absolute;
      background-color: white;
-     width: 250px;
+     width: 210px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1;
    }
@@ -99,6 +116,7 @@
      font-size: 16px ;
      word-spacing: 2px;
    }
+
    
    /* Change color of dropdown links on hover */
    .dropdown-content a:hover {background-color: rgb(253, 248, 248);}
@@ -108,3 +126,21 @@
    
    /* Change the background color of the dropdown button when the dropdown content is shown */
    /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+   #language{
+     width: 150px;
+     }
+     #en{
+          display: flex;
+          align-items: center;
+          /* font-weight: bold; */
+          color:rgb(41, 39, 39);
+          gap:5px;
+          font-size: 15px;
+          
+     }
+
+     #en:hover{
+          color:rgb(0,146,255);
+     }
+     
