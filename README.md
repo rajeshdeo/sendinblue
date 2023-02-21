@@ -35,7 +35,7 @@ I learnt time management, work-flow ofthe project, etc.
 
 
 
-Website Link:- <a href="https://stellar-sherbet-64792c.netlify.app/" target="_blank">Live</a>
+Website Link:- https://stellar-sherbet-64792c.netlify.app/ 
 
 Source Code:- https://github.com/rajeshdeo/sendinblue
 
